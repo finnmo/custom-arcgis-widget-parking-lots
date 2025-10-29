@@ -1,0 +1,27 @@
+{
+  "parkingLotField": "parking_lot",
+  "utilizationField": "utilization_percentage",
+  "showUtilizationText": true,
+  "allowNegatives": false,
+  "fullThreshold": 95,
+  "colorRanges": [
+    {
+      "minValue": 0,
+      "maxValue": 30,
+      "color": "#4CAF50",
+      "label": "Low Utilisation"
+    },
+    {
+      "minValue": 31,
+      "maxValue": 60,
+      "color": "#FFC107",
+      "label": "Medium Utilisation"
+    },
+    {
+      "minValue": 61,
+      "maxValue": 100,
+      "color": "#F44336",
+      "label": "High Utilisation"
+    }
+  ]
+}

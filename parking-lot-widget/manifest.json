@@ -1,0 +1,21 @@
+{
+  "name": "parking-lot-widget",
+  "label": "Parking Lot Widget",
+  "type": "widget",
+  "version": "1.18.0",
+  "exbVersion": "1.18.0",
+  "author": "Custom Developer",
+  "description": "A custom widget that displays parking lot data with utilization percentage visualization. Shows parking lot name as a black label, a color-coded dot based on utilization percentage, and the utilization percentage in grey underneath.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasSettingPage": true
+  },
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 300,
+    "height": 200
+  }
+}
