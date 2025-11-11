@@ -5,14 +5,5 @@ export default {
   allowNegatives: 'Allow Negative Values',
   fullThreshold: 'Full % Threshold',
   dataFormatExpected: 'Data Format Expected',
-  dataFormatDescription: 'Your data source should contain fields for parking lot names and utilization percentages (0-100). The widget will display color-coded dots based on utilization levels. The widget automatically respects any filters applied to the layer/view in ArcGIS.',
-  colorRanges: 'Color Ranges',
-  addColorRange: 'Add Color Range',
-  removeColorRange: 'Remove',
-  minValue: 'Min Value',
-  maxValue: 'Max Value',
-  color: 'Color',
-  label: 'Label',
-  rangeOverlapWarning: 'Warning: Ranges should not overlap',
-  invalidRangeWarning: 'Warning: Min value must be less than max value'
+  dataFormatDescription: 'Your data source should contain fields for parking lot names and utilization percentages (0-100). The widget shows a red availability gauge for each lot and respects any filters applied to the layer or view in ArcGIS.'
 }
